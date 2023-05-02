@@ -15,7 +15,7 @@
     <!-- Custom control -->
     <sys:String x:Key="Yerong_String_ToggleButton.Unset">Unset</sys:String>
     <sys:String x:Key="Yerong_String_ToggleButton.Off">Tắt</sys:String>
-    <sys:String x:Key="Yerong_String_ToggleButton.On">On</sys:String>
+    <sys:String x:Key="Yerong_String_ToggleButton.On">Bật</sys:String>
     <sys:String x:Key="Yerong_String_MicaMenu.Name">Menu</sys:String>
     <sys:String x:Key="Yerong_String_MicaMenu.HelpText">Click to open context menu.</sys:String>
 
@@ -39,19 +39,19 @@
     <sys:String x:Key="Navigate_Page.About">Thông tin</sys:String>
 
     <!-- Notification list -->
-    <sys:String x:Key="Notification_Close_Message.Name">Close message</sys:String>
-    <sys:String x:Key="Notification_Message_Content">Message content: {0}, {1}</sys:String>
-    <sys:String x:Key="Notification_Message_Button_List">Message buttons</sys:String>
-    <sys:String x:Key="Notification_Cancel_Task.Name">Cancel task</sys:String>
+    <sys:String x:Key="Notification_Close_Message.Name">Đóng tin nhắn</sys:String>
+    <sys:String x:Key="Notification_Message_Content">Nội dung tin nhắn: {0}, {1}</sys:String>
+    <sys:String x:Key="Notification_Message_Button_List">Nút tin nhắn</sys:String>
+    <sys:String x:Key="Notification_Cancel_Task.Name">Huỷ tác vụ</sys:String>
 
     <!-- Home page -->
-    <sys:String x:Key="Home_Messages_Center.Name">Messages center</sys:String>
+    <sys:String x:Key="Home_Messages_Center.Name">Trung tâm tin nhắn</sys:String>
     <!-- Greetings, customize it according to your country and habits. -->
     <sys:String x:Key="Home_Greeting_Hello">Chào</sys:String>
     <!-- 00:00 -> 05:00 -->
     <sys:String x:Key="Home_Greeting_Hour.0">Khuya rồi đấy, chúc bạn ngủ ngon nhé!</sys:String>
     <!-- 05:00 -> 06:00 -->
-    <sys:String x:Key="Home_Greeting_Hour.5">It's almost dawn, ready to get up?</sys:String>
+    <sys:String x:Key="Home_Greeting_Hour.5">Sắp đến lúc bình minh rồi, bạn đã sẵn sàng dậy chưa?</sys:String>
     <!-- 06:00 -> 10:00 -->
     <sys:String x:Key="Home_Greeting_Hour.6">Chào buổi sáng</sys:String>
     <!-- 10:00 -> 11:00 -->
@@ -69,7 +69,7 @@
     <!-- 18:00 -> 21:00 -->
     <sys:String x:Key="Home_Greeting_Hour.18">Chào buổi tối</sys:String>
     <!-- 21:00 -> 22:00 -->
-    <sys:String x:Key="Home_Greeting_Hour.21">Time to sleep, have a nice dream!</sys:String>
+    <sys:String x:Key="Home_Greeting_Hour.21">Đến giờ đi ngủ rồi, chúc bạn mơ đẹp!</sys:String>
     <!-- 22:00 -> 00:00 (+1) -->
     <sys:String x:Key="Home_Greeting_Hour.22">Khuya rồi đấy, chúc bạn ngủ ngon nhé!</sys:String>
     <!-- Greetings end -->
@@ -78,14 +78,14 @@
     <sys:String x:Key="Home_Install_Office.O365HPRDescription">Bao gồm Outlook, Word, Excel, PowerPoint và hơn thế nữa.</sys:String>
     <sys:String x:Key="Home_Install_Office.PP2019RDescription">Bao gồm Outlook, Word, Excel, PowerPoint và hơn thế nữa.</sys:String>
     <sys:String x:Key="Home_Install_Office.HS2019Description">Bao gồm Word, Excel, PowerPoint.</sys:String>
-    <sys:String x:Key="Home_Getting_Content">Getting content, please wait...</sys:String>
-    <sys:String x:Key="Home_Error_While_Getting_Content">Unable to get content, please check your Internet connection and try again.</sys:String>
+    <sys:String x:Key="Home_Getting_Content">Đang lấy nội dung, vui lòng đợi...</sys:String>
+    <sys:String x:Key="Home_Error_While_Getting_Content">Không thể lấy nội dung, vui lòng kiểm tra kết nối Internet của bạn và thử lại.</sys:String>
     <sys:String x:Key="Home_Retry">Thử lại (_R)</sys:String>
-    <sys:String x:Key="Home_Launcher.Name">Application list</sys:String>
+    <sys:String x:Key="Home_Launcher.Name">Danh sách ứng dụng</sys:String>
     <sys:String x:Key="Home_Launcher_CreateShortcut">Tạo một lối tắt trên bàn làm việc</sys:String>
 
     <!-- Deploy page -->
-    <sys:String x:Key="Deploy_Learn_More">Learn more</sys:String>
+    <sys:String x:Key="Deploy_Learn_More">Tìm hiểu thêm</sys:String>
     <!-- Channels Name, if you do not want to translate them, please keep in English. -->
     <sys:String x:Key="PerpetualVL2019">Office 2019 Perpetual Enterprise</sys:String>
     <sys:String x:Key="PerpetualVL2021">Office 2021 Perpetual Enterprise</sys:String>
@@ -98,46 +98,46 @@
 
     <!-- Error messages -->
     <!-- {0} means product name. -->
-    <sys:String x:Key="Deploy_Error_Coexist">{0} can not coexist with existing products.</sys:String>
+    <sys:String x:Key="Deploy_Error_Coexist">{0} không thể cùng tồn tại với các sản phẩm hiện có.</sys:String>
     <!-- {0} means product name. -->
-    <sys:String x:Key="Deploy_Error_ODT_Not_Supported">If you want to install {0}, change the installation module to Office Tool Plus.</sys:String>
+    <sys:String x:Key="Deploy_Error_ODT_Not_Supported">Nếu bạn muốn cài đặt {0}, hãy thay đổi Mô-đun cài đặt sang Office Tool Plus.</sys:String>
     <!-- {0} means product name, {1} means channel name. -->
-    <sys:String x:Key="Deploy_Error_Channel">{0} can not be installed on the selected channel: {1}.</sys:String>
+    <sys:String x:Key="Deploy_Error_Channel">{0} không thể được cài đặt trên kênh đã chọn: {1}.</sys:String>
     <!-- {0} means channel name, such as Current Channel. -->
-    <sys:String x:Key="Deploy_Error_Unsupported_Channel">If you want to use {0}, change the installation module to Office Tool Plus.</sys:String>
-    <sys:String x:Key="Deploy_Error_System_Architecture">You can not install 64-bit of Office on a non-64-bit system.</sys:String>
+    <sys:String x:Key="Deploy_Error_Unsupported_Channel">Nếu bạn muốn sử dụng {0}, hãy thay đổi Mô-đun cài đặt thành Office Tool Plus.</sys:String>
+    <sys:String x:Key="Deploy_Error_System_Architecture">Bạn không thể cài đặt phiên bản 64-bit của Office trên hệ thống không hỗ trợ 64-bit.</sys:String>
     <!-- Example: You can not install 32 bit of Office, because you have the 64 bit of Office installed on your computer. -->
-    <sys:String x:Key="Deploy_Error_Office_Architecture">You can not install {0} of Office, because you have the {1} of Office installed on your computer.</sys:String>
-    <sys:String x:Key="Deploy_Error_Installation_Arch">The architecture you have selected does not match the architecture of the local installation files, please reselect architecture or do not use the local installation files for deployment.</sys:String>
-    <sys:String x:Key="Deploy_Error_Installation_Channel">The update channel you have selected does not match the update channel of the local installation files, please reselect update channel or do not use the local installation files for deployment.</sys:String>
+    <sys:String x:Key="Deploy_Error_Office_Architecture">Bạn không thể cài đặt phiên bản {0} của Office, vì trên máy tính của bạn đã cài đặt phiên bản {1} của Office.</sys:String>
+    <sys:String x:Key="Deploy_Error_Installation_Arch">Kiến trúc bạn đã chọn không phù hợp với kiến trúc của các tệp cài đặt cục bộ, vui lòng chọn lại kiến trúc hoặc không sử dụng các tệp cài đặt cục bộ để triển khai.</sys:String>
+    <sys:String x:Key="Deploy_Error_Installation_Channel">Kênh cập nhật bạn đã chọn không khớp với kênh cập nhật của các tệp cài đặt cục bộ, vui lòng chọn lại kênh cập nhật hoặc không sử dụng các tệp cài đặt cục bộ cho việc triển khai.</sys:String>
 
-    <sys:String x:Key="Deploy_Deployment">Deploy Office</sys:String>
-    <sys:String x:Key="Deploy_Deployment.Description">Before deploying Office, make sure that deployment mode is set correctly and the product and language are configured.</sys:String>
+    <sys:String x:Key="Deploy_Deployment">Triển khai Office</sys:String>
+    <sys:String x:Key="Deploy_Deployment.Description">Trước khi triển khai Office, hãy đảm bảo rằng chế độ triển khai được thiết lập đúng và sản phẩm cũng như ngôn ngữ được cấu hình đúng.</sys:String>
     <sys:String x:Key="Deploy_Start_Deploy">Bắt đầu _triển khai</sys:String>
-    <sys:String x:Key="Deploy_Reset">_Reset all settings</sys:String>
+    <sys:String x:Key="Deploy_Reset">_Đặt lại tất cả các cài đặt</sys:String>
     <sys:String x:Key="Deploy_View_Code">Xem mã XML (_V)</sys:String>
-    <sys:String x:Key="Deploy_Apply_Preferences">_Apply preferences for Office applications</sys:String>
-    <sys:String x:Key="Deploy_Export_Config">_Export configuration</sys:String>
-    <sys:String x:Key="Deploy_Import_Config">_Import configuration</sys:String>
-    <sys:String x:Key="Deploy_Import_Config_Web">Import configuration from _Web</sys:String>
-    <sys:String x:Key="Deploy_Mode">Deployment mode</sys:String>
+    <sys:String x:Key="Deploy_Apply_Preferences">_Áp dụng tuỳ chỉnh cho các ứng dụng Office</sys:String>
+    <sys:String x:Key="Deploy_Export_Config">_Xuất cấu hình thiết lập</sys:String>
+    <sys:String x:Key="Deploy_Import_Config">_Nhập cấu hình thiết lập</sys:String>
+    <sys:String x:Key="Deploy_Import_Config_Web">Nhập cấu hình thiết lập từ _Web</sys:String>
+    <sys:String x:Key="Deploy_Mode">Chế độ triển khai</sys:String>
     <sys:String x:Key="Deploy_Mode.Edit">Sửa cấu hình</sys:String>
     <sys:String x:Key="Deploy_Mode.Download">Tải về</sys:String>
     <sys:String x:Key="Deploy_Mode.Install">Cài đặt</sys:String>
     <sys:String x:Key="Deploy_Mode.Create_ISO">Tạo tập tin ISO</sys:String>
-    <sys:String x:Key="Deploy_Architecture">Architecture</sys:String>
+    <sys:String x:Key="Deploy_Architecture">Kiến trúc</sys:String>
     <sys:String x:Key="Deploy_Architecture.x86">32-bit</sys:String>
     <sys:String x:Key="Deploy_Architecture.x64">64-bit</sys:String>
-    <sys:String x:Key="Deploy_Architecture.ARM">32-bit (ARM compatible)</sys:String>
-    <sys:String x:Key="Deploy_Architecture.ARM64">64-bit (ARM64 compatible)</sys:String>
-    <sys:String x:Key="Deploy_Channel">Update channel</sys:String>
-    <sys:String x:Key="Deploy_Module">Installation module</sys:String>
+    <sys:String x:Key="Deploy_Architecture.ARM">32-bit (tương thích ARM)</sys:String>
+    <sys:String x:Key="Deploy_Architecture.ARM64">64-bit (tương thích ARM64)</sys:String>
+    <sys:String x:Key="Deploy_Channel">Kênh cập nhật</sys:String>
+    <sys:String x:Key="Deploy_Module">Mô-đun cài đặt</sys:String>
     <sys:String x:Key="Deploy_Module.ODT">Công cụ triển khai Office</sys:String>
     <sys:String x:Key="Deploy_Module.OTP">Office Tool Plus</sys:String>
-    <sys:String x:Key="Deploy_Download_First">Download first, then deploy</sys:String>
-    <sys:String x:Key="Deploy_Download_First.Description">The installation files will be saved in the program directory or the directory specified by source path.</sys:String>
-    <sys:String x:Key="Deploy_Create_Shortcut">Create desktop shortcuts</sys:String>
-    <sys:String x:Key="Deploy_Create_Shortcut.Description">Create desktop shortcuts to Office applications after Office installation.</sys:String>
+    <sys:String x:Key="Deploy_Download_First">Tải xuống trước, sau đó triển khai</sys:String>
+    <sys:String x:Key="Deploy_Download_First.Description">Tệp cài đặt sẽ được lưu trong thư mục chương trình hoặc trong thư mục được chỉ định bởi đường dẫn nguồn.</sys:String>
+    <sys:String x:Key="Deploy_Create_Shortcut">Tạo lối tắt trên màn hình desktop</sys:String>
+    <sys:String x:Key="Deploy_Create_Shortcut.Description">Tạo lối tắt trên màn hình desktop đến các ứng dụng Office sau khi cài đặt Office.</sys:String>
     <!-- Do not edit it or translate it. iSlide only provided in mainland China. -->
     <sys:String x:Key="Deploy_iSlide">PlaceHolder</sys:String>
     <sys:String x:Key="Deploy_iSlide.Description">PlaceHolder</sys:String>
@@ -145,7 +145,7 @@
     <sys:String x:Key="Deploy_iSlide_Install.Name">PlaceHolder</sys:String>
 
     <sys:String x:Key="Deploy_Product">Sản phẩm</sys:String>
-    <sys:String x:Key="Deploy_Product.Description">{0} installed product(s), {1} ready to deploy and {2} ready to uninstall.</sys:String>
+    <sys:String x:Key="Deploy_Product.Description">Sản phẩm {0} đã được cài đặt, {1} sẵn sàng triển khai và {2} sẵn sàng gỡ cài đặt.</sys:String>
     <sys:String x:Key="Deploy_Product_Button">Add _products</sys:String>
     <sys:String x:Key="Deploy_Product_Nothing_Here">There's nothing here.</sys:String>
     <sys:String x:Key="Deploy_Product_Installed">Installed product(s)</sys:String>
@@ -813,10 +813,10 @@
     <sys:String x:Key="Err_Open_Clipboard">Unable to access clipboard, please try again.</sys:String>
 
     <!-- Error messages about Xunlei -->
-    <sys:String x:Key="Xunlei_Err_Init">Failed to initialize Xunlei.</sys:String>
+    <sys:String x:Key="Xunlei_Err_Init">Không thể khởi tạo Xunlei.</sys:String>
     <sys:String x:Key="Xunlei_Err_Start">Không thể bắt đầu tác vụ.</sys:String>
     <sys:String x:Key="Xunlei_Err_Stop">Không thể tạm dừng tác vụ.</sys:String>
-    <sys:String x:Key="Xunlei_Err_Exit">Failed to exit Xunlei.</sys:String>
+    <sys:String x:Key="Xunlei_Err_Exit">Không thể đóng Xunlei.</sys:String>
     <sys:String x:Key="Xunlei_Err_Unknown">Lỗi tải về không rõ.</sys:String>
     <sys:String x:Key="Xunlei_Err_Create">Không thể tạo tập tin.</sys:String>
     <sys:String x:Key="Xunlei_Err_Delete">Không thể xoá tập tin.</sys:String>
@@ -828,10 +828,10 @@
     <sys:String x:Key="Xunlei_Err_DownInvalid">Địa chỉ không hợp lệ.</sys:String>
     <sys:String x:Key="Xunlei_Err_NotIP">Không có IP trong tải về HTTP.</sys:String>
     <sys:String x:Key="Xunlei_Err_IDInvalid">ID tác vụ không hợp lệ.</sys:String>
-    <sys:String x:Key="Xunlei_Err_SetProxy">Failed to set proxy.</sys:String>
+    <sys:String x:Key="Xunlei_Err_SetProxy">Không thể đặt proxy.</sys:String>
     <sys:String x:Key="Xunlei_Err_ProxyAuthTypeFailed">Không thể xác thực proxy.</sys:String>
     <sys:String x:Key="Xunlei_Err_ProxyAuthTypeUnknown">Loại proxy không rõ.</sys:String>
     <sys:String x:Key="Xunlei_Err_Timeout">Hết thời gian chờ tác vụ.</sys:String>
-    <sys:String x:Key="Xunlei_Err_Crashed">Xunlei engine has crashed.</sys:String>
+    <sys:String x:Key="Xunlei_Err_Crashed">Bộ xử lý Xunlei đã gặp sự cố.</sys:String>
     <sys:String x:Key="Xunlei_Err_Cancel">Đã huỷ bỏ tác vụ.</sys:String>
 </ResourceDictionary>
